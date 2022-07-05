@@ -5,12 +5,12 @@ body{
     margin: 0;
 }
 h1{
-    font-size: 50px;
+    font-size: 40px;
 }
 .orange-color{
     color: orangered;
 }
-section{
+.top-banner{
     display: flex;
     align-items: center;
     margin-bottom: 100PX;
@@ -18,7 +18,8 @@ section{
 
 .half-width{
     width: 50%;
-    padding-left: 15PX;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 .half-width img{ 
     width: 80%;
@@ -41,4 +42,34 @@ font-size: 20px;
     display: flex;
     align-items: center;
     margin-top: 100px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
+.exper-card{
+    display: flex;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.exper-info{
+ margin-left: 5%;
+ margin-right: 5%;
+ padding-right: 2%;
+ padding-left:2% ;
+ width: 40%;
+box-shadow: 20px 15px 50px gray;
+border-radius: 10px;
+}
+#full-web{
+    border-left: 7px solid tomato;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue 100%, cyan 100%);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
+
