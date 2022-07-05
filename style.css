@@ -21,4 +21,10 @@ section{
 }
 .half-width a{
 text-decoration: none;
+padding: 10PX 40px ;
+border-radius: 20PX;
+background-image: linear-gradient(orange, tomato);
+color: white;
+font-size: 20px;
+
 }
